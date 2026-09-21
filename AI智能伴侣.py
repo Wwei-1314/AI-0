@@ -194,7 +194,7 @@ for message in st.session_state.messages:
         st.write(message["content"])
 
 # 页面logo
-st.logo("./resources/picture3.png")
+# st.logo("./resources/picture3.png")
 
 # 消息输入框
 prompt= st.chat_input("温暖的陪伴,从此刻开始~")
